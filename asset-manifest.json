@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quantum-waves/static/css/main.e6c13ad2.css",
+    "main.js": "/quantum-waves/static/js/main.8f39dfa6.js",
+    "static/js/453.97c46b82.chunk.js": "/quantum-waves/static/js/453.97c46b82.chunk.js",
+    "index.html": "/quantum-waves/index.html",
+    "main.e6c13ad2.css.map": "/quantum-waves/static/css/main.e6c13ad2.css.map",
+    "main.8f39dfa6.js.map": "/quantum-waves/static/js/main.8f39dfa6.js.map",
+    "453.97c46b82.chunk.js.map": "/quantum-waves/static/js/453.97c46b82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8f39dfa6.js"
+  ]
+}
