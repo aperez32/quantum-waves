@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/quantum-waves/static/css/main.c2688ef0.css",
-    "main.js": "/quantum-waves/static/js/main.594496e7.js",
+    "main.js": "/quantum-waves/static/js/main.365bbe39.js",
     "static/js/453.97c46b82.chunk.js": "/quantum-waves/static/js/453.97c46b82.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/quantum-waves/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/quantum-waves/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -65,11 +65,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/quantum-waves/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/quantum-waves/index.html",
     "main.c2688ef0.css.map": "/quantum-waves/static/css/main.c2688ef0.css.map",
-    "main.594496e7.js.map": "/quantum-waves/static/js/main.594496e7.js.map",
+    "main.365bbe39.js.map": "/quantum-waves/static/js/main.365bbe39.js.map",
     "453.97c46b82.chunk.js.map": "/quantum-waves/static/js/453.97c46b82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2688ef0.css",
-    "static/js/main.594496e7.js"
+    "static/js/main.365bbe39.js"
   ]
 }
