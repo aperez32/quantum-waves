@@ -3,7 +3,8 @@ import Sidebar from "./sidebar";
 import ParticleInBox from "./modules/ParticleInBox";
 import QHO from "./modules/QHO";
 import RigidRotor from "./modules/RigidRotor";
-import ComplexRotation from "./modules/ComplexRotation"; // 👈 import complex module
+import ComplexRotation from "./modules/ComplexRotation";
+import Uncertainty from "./modules/Uncertainty";  
 
 export default function App() {
   const [active, setActive] = useState("intro");
@@ -14,6 +15,7 @@ export default function App() {
     { key: "oscillator", label: "Harmonic Oscillator" },
     { key: "rotor", label: "Rigid Rotor" },
     { key: "complex", label: "Complex Wavefunctions" },
+    { key: "uncertainty", label: "Uncertainty & Fourier" }, 
   ];
 
   const renderContent = () => {
@@ -34,8 +36,11 @@ export default function App() {
       case "rotor":
         return <RigidRotor />; 
         
-      case "complex":                      // 👈 now shows the real module
+      case "complex":
         return <ComplexRotation />;
+        
+      case "uncertainty": 
+        return <Uncertainty />;
         
       default:
         return null;
