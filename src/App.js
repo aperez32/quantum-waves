@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Sidebar from "./sidebar";
 import ParticleInBox from "./modules/ParticleInBox";
 import QHO from "./modules/QHO";
-import RigidRotor from "./modules/RigidRotor"; // 👈 import rotor
+import RigidRotor from "./modules/RigidRotor";
+import ComplexRotation from "./modules/ComplexRotation"; // 👈 import complex module
 
 export default function App() {
   const [active, setActive] = useState("intro");
@@ -11,7 +12,7 @@ export default function App() {
     { key: "intro", label: "Introduction" },
     { key: "box", label: "Particle in a Box" },
     { key: "oscillator", label: "Harmonic Oscillator" },
-    { key: "rotor", label: "Rigid Rotor" },   // 👈 rotor tab
+    { key: "rotor", label: "Rigid Rotor" },
     { key: "complex", label: "Complex Wavefunctions" },
   ];
 
@@ -30,21 +31,11 @@ export default function App() {
       case "oscillator":
         return <QHO />; 
         
-      case "rotor":                          // 👈 render rotor visualization
+      case "rotor":
         return <RigidRotor />; 
         
-      case "complex":
-        return (
-          <div className="flex items-center justify-center h-full">
-            <div className="text-center max-w-md">
-              <div className="text-8xl mb-6">🔄</div>
-              <h2 className="text-3xl font-bold text-gray-100 mb-4">Complex Wavefunctions</h2>
-              <p className="text-gray-300 text-lg">
-                Coming soon: Watch quantum wavefunctions evolve and rotate in the complex plane.
-              </p>
-            </div>
-          </div>
-        );
+      case "complex":                      // 👈 now shows the real module
+        return <ComplexRotation />;
         
       default:
         return null;
